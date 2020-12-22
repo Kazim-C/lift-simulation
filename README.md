@@ -20,12 +20,12 @@ This was the way lift used to work. It can really be a problem if the building h
 
 ### Solution
 
-Improving on this design seemed at first extremely easy, but the mechanical lift is actually hard or impossible to improve on some scenarios:
+Improving on this design seemed extremely easy, but the mechanical lift is actually hard or impossible to improve on some scenarios:
     
     1. You are at ground floor, the lift is at ground floor and you want to go to the second floor.
     2. You are on the second floor, the lift is on third floor and you want to go to the gorund floor.
 
-The solution I came up with was to write an algorithm that cuts the unecessary travel to the top and bottom to change direction.
+One solution was to write an algorithm that cuts the unecessary travel to the top and bottom to change direction.
 
 Improved Algorithms:
     
@@ -41,5 +41,11 @@ Improved Algorithms:
         go in the opposite direction
         
 ## Implementation
-  
-  
+
+This Algorithm is implemented in Java with a UI to interact and test the algorithm
+
+To launch the App double click on the Frame.class
+
+
+
+
