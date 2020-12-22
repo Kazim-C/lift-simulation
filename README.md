@@ -44,7 +44,20 @@ Improved Algorithms:
 
 This Algorithm is implemented in Java with a UI to interact and test the algorithm
 
-To launch the App double click on the Frame.class
+To launch the App double click on the Frame.class 
+OR 
+Compile and run Frame.java
+
+This window should appear, it lets you choose the number of people and the number of floors.
+Improved case is on the left and mechanical (or base case) is on the right.
+
+<img width="902" alt="Screenshot 2020-12-22 at 17 28 56" src="https://user-images.githubusercontent.com/72973649/102910682-3a9d8500-447b-11eb-9fad-002d8b9594be.png">
+
+After clicking on "launch simulation" there is a live count of the number of floors travelled and a live indicator of the current floor.
+
+The simulation can be ran and re-ran as much as you want with different values or the same values
+It generates a new pseudo random building every time (random dispatching of people amongst the floor)
+
 
 
 
