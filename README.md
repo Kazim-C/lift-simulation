@@ -6,7 +6,7 @@ A java app that compares two different kind of lift algorithm
 The goal for this project was to improve on a mechanical design of a lift. The mechanical lift only goes one direction (up or down) 
 Once it reaches either end it changes direction.
 
-#### Problem
+### Problem
 
 This seemed very very impractical because if you are on the second floor, you want to go the ground floor and the lift is at ground level:
     The lift needs to go up 
