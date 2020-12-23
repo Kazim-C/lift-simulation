@@ -11,7 +11,7 @@ Once it reaches either end it changes direction.
 This seemed very very impractical because if you are on the second floor, you want to go the ground floor and the lift is at ground level:
 
     1. The lift needs to go up 
-    2. 1Stops at 2nd floor 
+    2. Stops at 2nd floor 
     3. Since it was going up it needs to go to the very last floor of the building to go back down
     4. Reaches last floor
     5. Changes direction and goes back down to ground level
