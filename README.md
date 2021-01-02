@@ -98,4 +98,6 @@ The hotter the color is, the higher the value, zoomed out a lot.
 
 This clearly shows that the two algorithms have a significant performance difference.
 
-Close up of the table with Excel
+Close up of the table with Excel:
+
+<img width="1537" alt="Screenshot 2021-01-02 at 13 01 20" src="https://user-images.githubusercontent.com/72973649/103457166-06d52180-4cfd-11eb-80e7-b1cd20290673.png">
