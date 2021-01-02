@@ -85,3 +85,9 @@ The table has the following form:
 | 249 | 27.74  | 54.2 | ∅ | 4844 | 4940 |
 
 This file can be used to do heat maps to visually analyse the data:
+
+<img width="856" alt="Screenshot 2021-01-02 at 13 01 32" src="https://user-images.githubusercontent.com/72973649/103457107-93331480-4cfc-11eb-8763-e6e8e327b7f2.png">
+
+The hotter the color is, the higher the value, zoomed out a lot.
+
+This clearly shows that the two algorithms have a significant performance difference.
