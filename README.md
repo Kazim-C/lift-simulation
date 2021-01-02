@@ -37,7 +37,8 @@ Improved Algorithms:
         IF people in lift DON'T want to go in the same direction the lift is going (up or down)
             change direction
     
-    IF lift full AND nobody wants to go to a higher/lower (depending on direction up or down) floor than the current floor:
+    IF lift full AND nobody wants to go to a higher/lower (depending on direction up or down) floor 
+    than the current floor:
         go in the opposite direction
         
 ## Implementation
@@ -66,10 +67,20 @@ It generates a new pseudo random building every time (random dispatching of peop
 There is a java class that runs the algorithm over and over with different values and generates a CSV file (Excel file).
 It can be used to analyse the performance of the algorithms compared to each others.
 
-| floors/people  | 1 | 2 | [...] | 250 |
+This java class runs the program 150 times per scenario and averages the results, example: take 2 people and 5 floor, 
+generate a pseudo random building based on those predicates, repeat this 150 times to get 150 different pseudo random 
+representation of the same predicates. Average the result and write them to a csv file. Take 3 people and 5 floor etc...
+Repeat this to for every value between 1-249 people and 2-89 floors to get a good represantation of the algorithm' performance.
+(This could be done in parrallel but I did not know how to parallelize an algorithm at the time so depending on the hardware, 
+it can take a long time).
+
+The table has the following form:
+
+| people/floors  | 2 | 3 | [...] | 88 | 89 |
 | ---- | ---- | ---- | ---- | ---- |
-| 2  | 1.3 | 1.6 | ∅ | 1.3 |
-| 3  | 1.7  | 1.9 | ∅ | 1.3 |
-| [...]  | ∅  | ∅ | ∅ | ∅ |
-| 90  | 1.7  | 1.9 | ∅ | 1.3 |
+| 1  | 1.3 | 1.6 | ∅ | 65 | 78 |
+| 2  | 1.7  | 1.9 | ∅ | 101 | 107 |
+| [...]  | ∅  | ∅ | ∅ | ∅ | ∅ |
+| 248  | 27.32  | 54.01 | ∅ | 4747 | 4936 |
+| 249 | 27.74  | 54.2 | ∅ | 4844 | 4940 |
 
