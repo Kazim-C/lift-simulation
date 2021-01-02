@@ -61,5 +61,13 @@ It generates a new pseudo random building every time (random dispatching of peop
 
 ![sideBySideLift](https://user-images.githubusercontent.com/72973649/102917062-d41d6480-4484-11eb-9e98-ecee40d2583d.png)
 
+## Data analysis
 
+There is a java class that runs the algorithm over and over with different values and generates a CSV file (Excel file).
+It can be used to analyse the performance of the algorithms compared to each others.
+
+| floors/people  | 1 |
+| ------------- | ------------- |
+| 2  | 1.3 |
+| 3  | 1.7  |
 
