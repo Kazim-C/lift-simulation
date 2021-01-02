@@ -66,8 +66,10 @@ It generates a new pseudo random building every time (random dispatching of peop
 There is a java class that runs the algorithm over and over with different values and generates a CSV file (Excel file).
 It can be used to analyse the performance of the algorithms compared to each others.
 
-| floors/people  | 1 |
-| ------------- | ------------- |
-| 2  | 1.3 |
-| 3  | 1.7  |
+| floors/people  | 1 | 2 | [...] | 250 |
+| ---- | ---- | ---- | ---- | ---- |
+| 2  | 1.3 | 1.6 | [...] | 1.3 |
+| 3  | 1.7  | 1.9 | [...] | 1.3 |
+| [...]  | [...]  | [...] | [...] | [...] |
+| 90  | 1.7  | 1.9 | [...] | 1.3 |
 
