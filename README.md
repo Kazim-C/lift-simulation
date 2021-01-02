@@ -84,3 +84,4 @@ The table has the following form:
 | 248  | 27.32  | 54.01 | ∅ | 4747 | 4936 |
 | 249 | 27.74  | 54.2 | ∅ | 4844 | 4940 |
 
+This file can be used to do heat maps to visually analyse the data:
