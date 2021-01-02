@@ -67,9 +67,10 @@ It generates a new pseudo random building every time (random dispatching of peop
 There is a java class that runs the algorithm over and over with different values and generates a CSV file (Excel file).
 It can be used to analyse the performance of the algorithms compared to each others.
 
-This java class runs the program 150 times per scenario and averages the results, example: take 2 people and 5 floor, 
-generate a pseudo random building based on those predicates, repeat this 150 times to get 150 different pseudo random 
-representation of the same predicates. Average the result and write them to a csv file. Take 3 people and 5 floor etc...
+This java class runs the program 150 times per scenario and averages the number of total floors travelled to compare 
+the performance of the algorithm, example: take 2 people and 5 floor, generate a pseudo random building based on 
+those predicates, repeat this 150 times to get 150 different pseudo random representation of the same predicates. 
+Average the result and write them to a csv file. Take 3 people and 5 floor etc...
 Repeat this to for every value between 1-249 people and 2-89 floors to get a good represantation of the algorithm' performance.
 (This could be done in parrallel but I did not know how to parallelize an algorithm at the time so depending on the hardware, 
 it can take a long time).
@@ -83,6 +84,11 @@ The table has the following form:
 | [...]  | ∅  | ∅ | ∅ | ∅ | ∅ |
 | 248  | 27.32  | 54.01 | ∅ | 4747 | 4936 |
 | 249 | 27.74  | 54.2 | ∅ | 4844 | 4940 |
+                            ^
+                            |
+     those values correspond to the average floors travelled 
+     for 150 pseudo random iteration of the same predicate.
+     
 
 This file can be used to do heat maps to visually analyse the data:
 
@@ -91,3 +97,5 @@ This file can be used to do heat maps to visually analyse the data:
 The hotter the color is, the higher the value, zoomed out a lot.
 
 This clearly shows that the two algorithms have a significant performance difference.
+
+Close up of the table with Excel
